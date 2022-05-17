@@ -1,0 +1,399 @@
+body{
+    font-family: 'Open Sans', sans-serif;
+    color: hsl(243, 87%, 12%);
+    margin: 0px;
+}
+.attribution { font-size: 11px; text-align: center; }
+.attribution a { color: hsl(228, 45%, 44%); }
+
+header{
+    display: flex;
+    justify-content: space-between;
+    margin: 50px 50px;
+    font-family: 'Raleway', sans-serif;
+}
+
+h1, h2, h3{
+    font-family: 'Raleway', sans-serif;
+    font-weight: 700;
+    line-height: 1.5em;
+}
+
+header a{
+    text-decoration: none;
+    margin-left: 40px;
+    color: hsl(243, 87%, 12%);
+}
+
+.top{
+    margin: 100px 50px;
+    display: flex;
+}
+
+.top-text{
+    width: 40%;
+    margin-top: 80px;
+    line-height: 1.5em;
+    margin-right: 10%;
+}
+
+.top-image{
+    width: 50%;
+}
+
+.top-image img{
+    width: 100%;   
+}
+
+.input-one{
+    line-height: 2em;
+    width: 50%;
+    margin-right: 10px;
+    border-radius: 5px;
+    border: 1px solid hsl(0, 0%, 75%);
+    padding: 5px;
+}
+
+.top button{
+    line-height: 2em;
+    width: 30%;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    border-radius: 5px;
+    color: white;
+    padding: 5px;
+}
+
+.bottom{
+    display: flex;
+    margin: -5px 0px;
+    background-color: hsla(240, 75%, 98%, 0.9);
+    padding-bottom: 50px;
+    
+}
+
+.bottom-image{
+    width: 50%;
+    margin-right: 50px;
+    margin-top: 50px;
+}
+
+.bottom-image img{
+    width: 100%;
+}
+
+.bottom-text{
+    width: 40%;
+    line-height: 1.5em;
+    margin-right: 0%;
+    margin-left: 50px;
+    padding: 10px;
+}
+
+
+.svg{
+    overflow: hidden;
+    width: 100%;
+    margin: auto;
+}
+
+.bottom h2{
+    word-spacing: 1rem;
+    font-weight: 700;
+    font-size: 28px;
+    margin-bottom: 25px;
+}
+
+.bottom-text p{
+    width: 55%;
+}
+
+.bottom-text a{
+    color: hsl(170, 45%, 43%);
+    margin-bottom: 10px;
+    margin-top: 20px;
+}
+
+.card{
+    width: 50%;
+    background-color: white;
+    border-radius: 10px;
+    margin: 50px 0px;
+    padding: 20px;
+    padding-top: 10px;
+    box-shadow: 1px 2px 10px 8px  hsla(240, 16%, 94%, 0.9);
+}
+
+.bottom-text p{
+    width: 100%;
+    
+}
+
+.tittle{
+    display: flex;
+}
+.tittle img{
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    margin-top: 10px;
+    margin-right: 10px;
+}
+
+.second{
+    display: flex;
+    flex-direction: column;
+    line-height: 0rem;
+    padding: 0px;
+}
+
+.second p{
+    margin-top: 20px;
+    margin-bottom: 0px;
+}
+
+.newsletter{
+    background-color: hsl(238, 22%, 44%);
+    padding: 50px 50px;
+    color: white;
+    display: flex;
+    justify-content: space-between;
+}
+
+.newsletter-text{
+    width: 40%;
+    padding-right: 50px;
+}
+
+.newsletter-inputs{
+    padding: 0px;
+    text-align: start;
+    width: 50%;
+}
+
+.mail{
+    width: 80%;
+    line-height: 2em;
+    margin-top: 30px;
+    display: block;
+    margin-bottom: 10px;
+}
+
+.newsletter-inputs > button{
+    line-height: 2em;
+    width: 30%;
+    background-color: hsl(224, 93%, 58%);
+    border: none;
+    color: white;
+    padding: 5px;
+    margin-top: 5px;
+}
+
+.container{
+    background-color: hsl(243, 87%, 12%);
+    color: white;
+    padding: 50px 50px;
+}
+
+.main-footer{
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    line-height: 2.5rem;
+}
+
+.one> img{
+    margin-right: 10px;
+    
+}
+
+.one p{
+    display: inline;
+}
+
+.last{
+    color: white;
+}
+
+.main-footer a{
+    display: block;
+    text-decoration: none;
+    color: white;
+}
+
+.icons i{
+    margin-left: 20px;
+    border: 1px solid white;
+    border-radius:50%;
+    padding: 5px;
+}
+
+a, button:active, i{
+    cursor: pointer;
+}
+
+button:active{
+    background-color: hsl(224, 93%, 78%);
+}
+
+i:active{
+    color: hsl(224, 93%, 78%);
+    display: inline;
+}
+
+
+a:active{
+    color: hsl(224, 93%, 78%);
+    display: inline;
+}
+
+#last svg{
+    color: white;
+}
+
+@media(max-width:600px){
+
+    header a{
+        text-decoration: none;
+        margin-left: 10px;
+        color: hsl(243, 87%, 12%);
+    }
+
+    .top{
+        margin: 100px 50px;
+        display: flex;
+        flex-direction: column;
+    }
+
+    .top-image{
+        width: 100%;
+        order: 1;
+    }
+
+    .top-image img{
+        width: 100%;
+    }
+
+    .top-text{
+        width: 100%;
+        order: 2;
+        margin: 0px;
+    }
+
+    .input-one{
+        line-height: 3em;
+        width: 100%;
+        display: block;
+        margin-bottom: 20px;
+        margin: 0px;
+        padding: 0px;
+    }
+
+    .top button{
+        line-height: 3em;
+        width: 100%;
+        background-color: hsl(224, 93%, 58%);
+        margin-top: 10px;
+        display: block;
+    }
+
+    .bottom{
+        display: flex;
+        flex-direction: column;
+        background-image: url(images/bg-curve-mobile.svg);
+        
+    }
+
+    .bottom-image{
+        width: 90%;
+        order: 1;
+        margin: auto;
+    }
+
+    .bottom-image img{
+        width: 100%;
+    }
+
+    .bottom-text{
+        width: 90%;
+        order: 2;
+        margin: auto;
+        margin-top: 100px;
+    }
+
+    h1, h2, h3{
+        text-align: center;
+        word-spacing: normal;
+    }
+
+    .bottom-text a{
+        margin-right: 25%;
+        margin-left: 25%;
+    }
+
+    .card{
+        width: 80%;
+        margin: auto;
+        margin-top: 50px;
+    }
+
+    .newsletter{
+        display: flex;
+        flex-direction: column;
+    }
+    
+    .newsletter-text{
+        width: 100%;
+    }
+
+    .newsletter-inputs{
+        width: 100%;
+    }
+
+    .mail{
+        line-height: 3em;
+        width: 80%;
+        display: block;
+        margin-bottom: 20px;
+        margin: 0px;
+        padding: 0px;
+        margin: auto;
+        margin-bottom: 10px;
+    }
+
+    .newsletter-inputs button{
+        line-height: 3em;
+        width: 80%;
+        background-color: hsl(224, 93%, 58%);
+        margin-top: 10px;
+        display: block;
+        margin: auto;
+        margin-top: 10px;
+    }
+
+    .main-footer{
+        display: flex;
+        flex-direction: column;
+       
+    }
+
+    .one{
+        margin-bottom: 40px;
+    }
+
+    .two{
+        margin-bottom: 40px;
+       
+    }
+
+    .three{
+        margin-bottom: 40px;
+    }
+
+    .icons{
+        width: 50%;
+        margin: auto;
+    }
+
+
+
+}
